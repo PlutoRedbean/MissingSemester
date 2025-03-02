@@ -1,3 +1,3 @@
 #!/redbean/bin/env bash
 
-find . -mtime 0 | xargs -d '\n' ls -lt 
+find . -mtime -1 | xargs -d '\n' ls -t 
